@@ -5,6 +5,8 @@ import { ThemeProvider } from './provider';
 
 import './globals.css';
 
+import SentryFeedbackHandler from '@/utils/sentry-feedback-handler';
+
 const geistSans = localFont({
   src: './fonts/GeistVF.woff',
   variable: '--font-geist-sans',
@@ -31,6 +33,7 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
           {children}
+          <SentryFeedbackHandler />
         </ThemeProvider>
       </body>
     </html>

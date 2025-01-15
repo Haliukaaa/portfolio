@@ -5,7 +5,7 @@ import { PinContainer } from './ui/ui-container';
 import { projects } from '@/data';
 const RecentProjects = () => (
   <div className="py-20" id="projects">
-    <h1 className="text-center font-bold lg:text-3xl">
+    <h1 className="heading">
       Small selection of <span className="text-purple">recent projects</span>
     </h1>
     <div className="mt-10 flex flex-wrap items-center justify-center gap-x-24 gap-y-8 p-4">
