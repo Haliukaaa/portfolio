@@ -154,6 +154,7 @@ export function Globe({ globeConfig, data }: WorldProps) {
         .showAtmosphere(defaultProps.showAtmosphere)
         .atmosphereColor(defaultProps.atmosphereColor)
         .atmosphereAltitude(defaultProps.atmosphereAltitude)
+        // eslint-disable-next-line
         .hexPolygonColor((e) => defaultProps.polygonColor);
       startAnimation();
     }
@@ -168,12 +169,15 @@ export function Globe({ globeConfig, data }: WorldProps) {
       .arcStartLng((d) => (d as { startLng: number }).startLng * 1)
       .arcEndLat((d) => (d as { endLat: number }).endLat * 1)
       .arcEndLng((d) => (d as { endLng: number }).endLng * 1)
+      // eslint-disable-next-line
       .arcColor((e: any) => (e as { color: string }).color)
       .arcAltitude((e) => (e as { arcAlt: number }).arcAlt * 1)
+      // eslint-disable-next-line
       .arcStroke((e) => [0.32, 0.28, 0.3][Math.round(Math.random() * 2)])
       .arcDashLength(defaultProps.arcLength)
       .arcDashInitialGap((e) => (e as { order: number }).order * 1)
       .arcDashGap(15)
+      // eslint-disable-next-line
       .arcDashAnimateTime((e) => defaultProps.arcTime);
 
     globeRef.current
@@ -185,6 +189,7 @@ export function Globe({ globeConfig, data }: WorldProps) {
 
     globeRef.current
       .ringsData([])
+      // eslint-disable-next-line
       .ringColor((e: any) => (t: any) => e.color(t))
       .ringMaxRadius(defaultProps.maxRings)
       .ringPropagationSpeed(RING_PROPAGATION_SPEED)
@@ -233,7 +238,9 @@ export function World(props: WorldProps) {
     <Canvas scene={scene} camera={new PerspectiveCamera(50, aspect, 180, 1800)}>
       <WebGLRendererConfig />
       <ambientLight color={globeConfig.ambientLight} intensity={0.6} />
+
       <directionalLight color={globeConfig.directionalLeftLight} position={new Vector3(-400, 100, 400)} />
+ 
       <directionalLight color={globeConfig.directionalTopLight} position={new Vector3(-200, 500, 200)} />
       <pointLight color={globeConfig.pointLight} position={new Vector3(-200, 500, 200)} intensity={0.8} />
       <Globe {...props} />

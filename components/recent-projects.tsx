@@ -6,13 +6,13 @@ import { projects } from '@/data';
 const RecentProjects = () => (
   <div className="py-20" id="projects">
     <h1 className="heading">
-      Small selection of <span className="text-purple">recent projects</span>
+      Selection of my <span className="text-purple">recent projects</span>
     </h1>
-    <div className="mt-10 flex flex-wrap items-center justify-center gap-x-24 gap-y-8 p-4">
+    <div className="mt-10 flex flex-wrap items-center justify-center gap-x-24 p-4">
       {projects.map(({ id, title, des, img, iconLists, link }) => (
         <div key={id} className="ms:w-[400px] flex h-[32rem] w-[80vw] items-center justify-center sm:h-[41rem] sm:w-96 lg:min-h-[32.5rem]">
           <PinContainer title={link} href={link}>
-            <div className="relative mb-10 flex h-[30vh] w-[80vw] items-center justify-center overflow-hidden sm:h-[40vh] sm:w-[400px]">
+            <div className="relative mb-10 flex h-[30vh] w-[80vw] items-center justify-center overflow-hidden sm:w-[400px]">
               <div className="relative h-full w-full overflow-hidden bg-[#13162d] lg:rounded-3xl">
                 <img src="/bg.png" alt="bg-img" />
               </div>
@@ -33,7 +33,7 @@ const RecentProjects = () => (
                 ))}
               </div>
               <div className="flex items-center justify-center">
-                <p className="flex text-sm text-purple md:text-xs lg:text-xl">Check live site</p>
+                <p className="flex text-sm text-purple md:text-xs lg:text-xl">Visit</p>
                 <FaLocationArrow className="color-[#cbacf9] ms-3" />
               </div>
             </div>

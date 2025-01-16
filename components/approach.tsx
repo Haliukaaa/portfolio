@@ -95,7 +95,11 @@ const AceternityIcon = ({ order }: { order: string }) => (
   </button>
 );
 
-export const Icon = ({ className, ...rest }: any) => (
+interface IconProps extends React.SVGProps<SVGSVGElement> {
+  className?: string;
+}
+// eslint-disable-next-line
+export const Icon: React.FC<IconProps> = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
