@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: `🥰`,
+    title: `Failing and learning`,
     description: '',
     className: 'md:col-span-1 md:row-span-1',
     imgClassName: '',
@@ -72,131 +72,115 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: '3D Solar System Planets to Explore',
-    des: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
-    img: '/p1.svg',
+    title: 'ArtHub Online Gallery Website',
+    des: 'Our team website showcases art work from artists to potential buyers.',
+    img: '/arthub.png',
     iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/fm.svg'],
-    link: '/ui.earth.com',
+    link: 'https://arthub-test.vercel.app/',
   },
   {
     id: 2,
-    title: 'Yoom - Video Conferencing App',
-    des: 'Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.',
-    img: '/p2.svg',
-    iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/stream.svg', '/c.svg'],
-    link: 'https://todo-list-sandy-nine-53.vercel.app/',
+    title: 'Blog template with mock API',
+    des: 'We used a mock API when we first learned about restAPI, and built a blog with it',
+    img: '/blog.png',
+    iconLists: ['/next.svg', '/tail.svg'],
+    link: 'https://blog-template-inky.vercel.app/',
   },
   {
     id: 3,
-    title: 'Portfolio Single Page Template',
-    des: 'A single page template for a portfolio built with react.js only',
-    img: '/port.png',
-    iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/c.svg'],
-    link: 'https://portfolio-rust-eight-16.vercel.app/',
+    title: 'Todo list  planner app',
+    des: 'Made a simple todo list planner app for my personal use. You can add, edit and delete tasks.',
+    img: '/todo.png',
+    iconLists: ['/html.svg', '/css.svg', '/js.svg'],
+    link: 'https://todo-list-sandy-nine-53.vercel.app/',
   },
   {
     id: 4,
+    title: 'Portfolio Single Page Template',
+    des: 'A single page template for a portfolio built with react.js only',
+    img: '/port.png',
+    iconLists: ['/re.svg', '/tail.svg'],
+    link: 'https://portfolio-rust-eight-16.vercel.app/',
+  },
+  {
+    id: 5,
     title: 'Gogo news website',
     des: 'Recreated the front page of a popular news website using vanilla js, html and css only',
     img: '/gogo.png',
-    iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/three.svg', '/gsap.svg'],
+    iconLists: ['/css.svg', '/html.svg'],
     link: 'https://gogo-mn-iota.vercel.app/',
   },
 ];
 
 export const testimonials = [
   {
-    quote: 'Yum hurdan surdag sain suragch. Eniig goe uuruu delgeruulchih. (Багш намайг ингээд оруулчихна гэж санаагүй л байхдаа хахахаха)',
+    quote: 'Yum hurdan surdag sain suragch)',
     name: 'Dashnyam Baasan',
     title: 'Instructor and Senior Developer at Pinecone Academy',
+    icon: "",
   },
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
     name: 'Michael Johnson',
     title: 'Director of AlphaStream Technologies',
+    icon: "",
   },
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
     name: 'Michael Johnson',
     title: 'Director of AlphaStream Technologies',
+    icon: "",
   },
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
     name: 'Michael Johnson',
     title: 'Director of AlphaStream Technologies',
+    icon: "",
   },
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
     name: 'Michael Johnson',
     title: 'Director of AlphaStream Technologies',
-  },
-];
-
-export const companies = [
-  {
-    id: 1,
-    name: 'cloudinary',
-    img: '/cloud.svg',
-    nameImg: '/cloudName.svg',
-  },
-  {
-    id: 2,
-    name: 'appwrite',
-    img: '/app.svg',
-    nameImg: '/appName.svg',
-  },
-  {
-    id: 3,
-    name: 'HOSTINGER',
-    img: '/host.svg',
-    nameImg: '/hostName.svg',
-  },
-  {
-    id: 4,
-    name: 'stream',
-    img: '/s.svg',
-    nameImg: '/streamName.svg',
-  },
-  {
-    id: 5,
-    name: 'docker.',
-    img: '/dock.svg',
-    nameImg: '/dockerName.svg',
+    icon: "",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: 'Frontend Engineer Intern',
-    desc: 'Assisted in the development of a web-based platform using React.js, enhancing interactivity.',
+    title: 'Frontend Developer',
+    company: 'Virasoft solution',
+    desc: 'Currently leading the front-end development of a cross-platform eCommerce website that supports multiple businesses through a unified back office',
     className: 'md:col-span-2',
-    thumbnail: '/exp1.svg',
+    thumbnail: '/virasoft-logo.png',
   },
   {
     id: 2,
-    title: 'Mobile App Dev - JSM Tech',
-    desc: 'Designed and developed mobile app for both iOS & Android platforms using React Native.',
+    title: 'Digital Solutions Manager',
+    company: 'Beauty Secrets',
+    desc: 'Was responsible for automating tasks and bringing solutions in the digital space like creating chatbots, doing web admin, as well as translating and creating contents',
     className: 'md:col-span-2',
-    thumbnail: '/exp2.svg',
+    thumbnail: '/bs-logo.svg',
   },
   {
     id: 3,
-    title: 'Freelance App Dev Project',
-    desc: 'Led the dev of a mobile app for a client, from initial concept to deployment on app stores.',
+    title: 'Freelance English Interpreter',
+    company: 'Mongol Derby',
+    desc: 'Ensured accurate translation during race events and briefings between international participants, organizers and local hosts',
     className: 'md:col-span-2',
-    thumbnail: '/exp3.svg',
+    thumbnail: '/derby-logo.png',
   },
   {
     id: 4,
-    title: 'Lead Frontend Developer',
-    desc: 'Developed and maintained user-facing features using modern frontend technologies.',
+    title: 'English Teacher',
+    company: 'Singapore School of Mongolia',
+    desc: 'Taught English to students of various age groups, focusing on developing their language proficiency and communication skills',
     className: 'md:col-span-2',
-    thumbnail: '/exp4.svg',
+    thumbnail: '/sm-logo.png',
   },
 ];
 
@@ -207,10 +191,14 @@ export const socialMedia = [
   },
   {
     id: 2,
-    img: '/twit.svg',
+    img: '/fb.svg',
   },
   {
     id: 3,
-    img: '/link.svg',
+    img: '/ig.svg',
+  },
+  {
+    id: 4,
+    img: '/in.svg',
   },
 ];

@@ -14,7 +14,7 @@ const Hero = () => (
         <div className="flex max-w-[89vw] flex-col items-center justify-center md:max-w-2xl lg:max-w-[60vw]">
           <h2 className="max-w-80 text-center text-xs uppercase tracking-widest text-blue-100">Haliuka&apos;s experimental portfolio</h2>
           <TextGenerateEffect
-            words="Is coding difficult? Yes. Do I give up? NO."
+            words="Is coding difficult? Yes. Do I give up? HELL NO."
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
           <p className="mb-4 text-center text-sm md:text-lg md:tracking-wider lg:text-2xl">

@@ -17,10 +17,11 @@ const Exerience = () => (
           className="flex-1 border-neutral-50 text-white dark:border-slate-800"
         >
           <div className="flex flex-col gap-2 p-3 py-6 md:p-5 lg:flex-grow lg:items-center lg:p-10">
-            <img src={card.thumbnail} alt={card.thumbnail} className="w-16 md:w-20 lg:w-32" />
+            <img src={card.thumbnail} alt={card.thumbnail} className={` ${card.id === 4 ? "w-52 md:w-56 lg:w-64" : "w-16 md:w-20 lg:w-32"} object-contain`} />
             <div className="lg:ms-5">
-              <h1 className="text-start text-lg font-bold md:text-2xl">{card.title}</h1>
-              <p className="mt-3 text-start font-semibold text-white-100 ">{card.desc}</p>
+              <h1 className="text-center text-lg font-normal md:text-xl">{card.title}</h1>
+              <h1 className="text-center text-lg font-bold text-purple md:text-2xl">{card.company}</h1>
+              <p className="mt-3 text-center font-semibold text-white-100 ">{card.desc}</p>
             </div>
           </div>
         </Button>
