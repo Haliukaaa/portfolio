@@ -84,7 +84,8 @@ export const InfiniteMovingCards = ({
           <li
             className="relative w-[90vw] max-w-full flex-shrink-0 rounded-2xl border border-b-0 border-slate-700 p-5 md:w-[600px]"
             style={{
-              background: 'linear-gradient(180deg, var(--slate-800), var(--slate-900)',
+              background: 'rgb(4, 7, 29)',
+              backgroundColor: 'linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)',
             }}
             key={idx}
           >

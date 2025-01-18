@@ -14,10 +14,10 @@ const Approach = () => (
       My <span className="text-purple">approch</span>
     </h1>
     <div className=" my-20 flex flex-col items-center justify-center gap-4 lg:flex-row">
-      <Card title="Planning & Strategy" description="lorem ipsum do your job properly" icon={<AceternityIcon order="Phase 1" />}>
+      <Card title="Think, Plan, Procrastinate" description="Before writing code, I break problems into smaller pieces and accidentally overthink it!" icon={<AceternityIcon order="Phase 1" />}>
         <CanvasRevealEffect animationSpeed={5.1} containerClassName="bg-emerald-900" />
       </Card>
-      <Card title="Pull my hair" description="lorem ipsum do your job properly" icon={<AceternityIcon order="Phase 2" />}>
+      <Card title="Code Like the Junior Dev I am" description="I write logical, clean code with my trusted partner ChatGPT and with burning hatred for bugs!" icon={<AceternityIcon order="Phase 2" />}>
         <CanvasRevealEffect
           animationSpeed={3}
           containerClassName="bg-black"
@@ -28,7 +28,7 @@ const Approach = () => (
           dotSize={2}
         />
       </Card>
-      <Card title="Finish with anger" description="lorem ipsum do your job properly" icon={<AceternityIcon order="Phase 3" />}>
+      <Card title="Mental breakdown, Abandon" description="Wait wait wait. I'm just joking. I meant to say I polish, perfect my code before publishing. Sauce is trust me bro." icon={<AceternityIcon order="Phase 3" />}>
         <CanvasRevealEffect animationSpeed={3} containerClassName="bg-sky-600" colors={[[125, 211, 252]]} />
       </Card>
     </div>
@@ -72,7 +72,7 @@ const Card = ({
         <div className="absolute left-[50%] top-[50%] mx-auto flex w-full -translate-x-[50%] -translate-y-[50%] items-center justify-center text-center  transition duration-200 group-hover/canvas-card:-translate-y-4 group-hover/canvas-card:opacity-0">
           {icon}
         </div>
-        <h2 className="relative z-10 mt-4 text-3xl font-bold text-black opacity-0 transition  duration-200 group-hover/canvas-card:-translate-y-2 group-hover/canvas-card:text-white group-hover/canvas-card:opacity-100 dark:text-white">
+        <h2 className={`relative z-10 mt-4 text-3xl font-bold text-black opacity-0 transition  duration-200 group-hover/canvas-card:-translate-y-2 group-hover/canvas-card:text-white group-hover/canvas-card:opacity-100 dark:text-white ${title === "Mental breakdown, Abandon" ? "line-through" : ""}`}>
           {title}
         </h2>
         <h2

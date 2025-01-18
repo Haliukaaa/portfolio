@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: 'Creative, diligent and responsible but with ADHD',
+    title: 'Creative, diligent and responsible all with ADHD',
     description: '',
     className: 'md:col-span-1',
     imgClassName: '',
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: `Failing and learning`,
+    title: ``,
     description: '',
     className: 'md:col-span-1 md:row-span-1',
     imgClassName: '',
@@ -75,7 +75,7 @@ export const projects = [
     title: 'ArtHub Online Gallery Website',
     des: 'Our team website showcases art work from artists to potential buyers.',
     img: '/arthub.png',
-    iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/fm.svg'],
+    iconLists: ['/next.svg', '/tail.svg', '/ts.svg', 'mongodb.svg'],
     link: 'https://arthub-test.vercel.app/',
   },
   {
@@ -83,7 +83,7 @@ export const projects = [
     title: 'Blog template with mock API',
     des: 'We used a mock API when we first learned about restAPI, and built a blog with it',
     img: '/blog.png',
-    iconLists: ['/next.svg', '/tail.svg'],
+    iconLists: ['/next.svg', '/tail.svg', 'restapi.png'],
     link: 'https://blog-template-inky.vercel.app/',
   },
   {
@@ -170,7 +170,7 @@ export const workExperience = [
     id: 3,
     title: 'Freelance English Interpreter',
     company: 'Mongol Derby',
-    desc: 'Ensured accurate translation during race events and briefings between international participants, organizers and local hosts',
+    desc: `Ensured accurate translation during race events and briefings between international participants, organizers and local hosts at the world's toughest and longest horse race`,
     className: 'md:col-span-2',
     thumbnail: '/derby-logo.png',
   },
@@ -178,7 +178,7 @@ export const workExperience = [
     id: 4,
     title: 'English Teacher',
     company: 'Singapore School of Mongolia',
-    desc: 'Taught English to students of various age groups, focusing on developing their language proficiency and communication skills',
+    desc: 'Taught English to students from 1-10th grade, creating effective lesson plans to develop their language proficiency and communication skills',
     className: 'md:col-span-2',
     thumbnail: '/sm-logo.png',
   },
@@ -188,17 +188,21 @@ export const socialMedia = [
   {
     id: 1,
     img: '/git.svg',
+    link: 'https://github.com/Haliukaaa',
   },
   {
     id: 2,
     img: '/fb.svg',
+    link: 'https://www.facebook.com/haliuka.aqua/',
   },
   {
     id: 3,
     img: '/ig.svg',
+    link: 'https://www.instagram.com/haliuka_aqua/',
   },
   {
     id: 4,
     img: '/in.svg',
+    link: 'https://www.linkedin.com/in/haliuka/',
   },
 ];
