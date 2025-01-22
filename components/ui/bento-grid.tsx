@@ -2,13 +2,12 @@
 import React, { useState } from 'react';
 
 import { IoCopyOutline } from 'react-icons/io5';
-import Lottie from 'react-lottie';
+import LottieConfetti from './lottie-confetti';
 
 import { BackgroundGradientAnimation } from './gradient-bg';
 import { GlobeDemo } from './grid-globe';
 import MagicButton from './magic-button';
 
-import animationData from '@/data/confetti.json';
 import { cn } from '@/utils/cn';
 
 export const BentoGrid = ({ className, children }: { className?: string; children?: React.ReactNode }) => (
@@ -110,21 +109,19 @@ export const BentoGridItem = ({
               </div>
             )}
             {id === 6 && (
-              <div className="relative mt-5">
-                <div className="absolute -bottom-5 right-0">
-                  <Lottie
-                    options={{ loop: copied, autoplay: copied, animationData, rendererSettings: { preserveAspectRatio: 'xMidYMid slice' } }}
-                  />
-                </div>
-                <MagicButton
-                  title={copied ? 'Phone number copied' : 'Copy phone number'}
-                  icon={<IoCopyOutline />}
-                  position="left"
-                  otherClasses="!bg-[161a31]"
-                  handleClick={handleCopy}
-                />
-              </div>
-            )}
+      <div className="relative mt-5">
+        <div className="absolute -bottom-5 right-0">
+          <LottieConfetti isPlaying={copied} />
+        </div>
+        <MagicButton
+          title={copied ? 'Phone number copied' : 'Copy phone number'}
+          icon={<IoCopyOutline />}
+          position="left"
+          otherClasses="!bg-[161a31]"
+          handleClick={handleCopy}
+        />
+      </div>
+    )}
           </div>
         </div>
         <div className="transition duration-200 group-hover/bento:translate-x-2"></div>

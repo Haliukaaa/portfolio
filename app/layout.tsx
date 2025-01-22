@@ -1,22 +1,8 @@
 import type { Metadata } from 'next';
-import localFont from 'next/font/local';
 
 import { ThemeProvider } from './provider';
 
 import './globals.css';
-
-import SentryFeedbackHandler from '@/utils/sentry-feedback-handler';
-
-const geistSans = localFont({
-  src: './fonts/GeistVF.woff',
-  variable: '--font-geist-sans',
-  weight: '100 900',
-});
-const geistMono = localFont({
-  src: './fonts/GeistMonoVF.woff',
-  variable: '--font-geist-mono',
-  weight: '100 900',
-});
 
 export const metadata: Metadata = {
   title: "Haliuka's Portfolio",
@@ -30,10 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
           {children}
-          <SentryFeedbackHandler />
         </ThemeProvider>
       </body>
     </html>

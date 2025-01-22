@@ -13,9 +13,9 @@ export const Footer = () => (
       <p className="my-5 text-center text-white-200 md:mt-10">
         Reach out to me today and let&apos;s discuss how I can help you achieve your goals.
       </p>
-      <a href="mailto:haliuka.aqua@gmail.com">
+      <Link href="mailto:haliuka.aqua@gmail.com">
         <MagicButton title="Send an email" icon={<FaLocationArrow />} position="right"></MagicButton>
-      </a>
+      </Link>
     </div>
     <div className="mt-16 flex flex-col items-center justify-between md:flex-row">
       <p className="text-sm font-light md:text-base md:font-normal">Copyright © 2024 Haliuka&apos;s experimental portfolio coded with love and hours of frustration! 💙🩵</p>
