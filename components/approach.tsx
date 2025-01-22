@@ -14,7 +14,7 @@ const Approach = () => (
       My <span className="text-purple">approch</span>
     </h1>
     <div className=" my-20 flex flex-col items-center justify-center gap-4 lg:flex-row">
-      <Card title="Think, Plan, Procrastinate" description="Before writing code, I break problems into smaller pieces and accidentally overthink it!" icon={<AceternityIcon order="Phase 1" />}>
+      <Card title="Think, Plan, Procrastinate" description="Before writing code, I break problems into smaller pieces, map out solutions and accidentally overthink it!" icon={<AceternityIcon order="Phase 1" />}>
         <CanvasRevealEffect animationSpeed={5.1} containerClassName="bg-emerald-900" />
       </Card>
       <Card title="Code Like the Junior Dev I am" description="I write logical, clean code with my trusted partner ChatGPT and with burning hatred for bugs!" icon={<AceternityIcon order="Phase 2" />}>

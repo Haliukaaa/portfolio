@@ -18,7 +18,7 @@ export const Footer = () => (
       </Link>
     </div>
     <div className="mt-16 flex flex-col items-center justify-between md:flex-row">
-      <p className="text-sm font-light md:text-base md:font-normal">Copyright © 2024 Haliuka&apos;s experimental portfolio coded with love and hours of frustration! 💙🩵</p>
+      <p className="text-sm font-light md:text-base md:font-normal">Copyright © 2024 Haliuka&apos;s experimental portfolio coded with love and hours of frustration! 🩵</p>
       <div className="flex items-center gap-6 md:gap-3">
         {socialMedia.map((profile) => (
           <Link href={profile.link}

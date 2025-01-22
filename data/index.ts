@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: 'Creative, diligent and responsible all with ADHD',
+    title: 'Creative, diligent and responsible along with ADHD',
     description: '',
     className: 'md:col-span-1',
     imgClassName: '',
@@ -114,38 +114,38 @@ export const projects = [
 
 export const testimonials = [
   {
-    quote: 'Yum hurdan surdag sain suragch)',
+    quote:
+      `At Virasoft, Hailey proved to be an incredible asset to the team, balancing marketing and front-end development.`,
+    name: 'Enkhtulga Munkhsaikhan',
+    title: 'CEO and Founder at Virasoft',
+    icon: "/test4.jpg",
+  },
+  {
+    quote: `Working with Khaliun was like having five employees in one. From content creation and marketing to translation and web admin, they handled everything with ease. Their recent work with implementing a chatbot, brought our operations to a whole new level. A true multi-talented gem!`,
+    name: 'Enkhkhorvoo Dendev',
+    title: 'CEO at Beauty Secrets',
+    icon: "/test2.jpg",
+  },
+  {
+    quote:
+     `Khaliun is very hard-working. The work at Mongol Derby is not an easy task, you travel across 1000 km in nature's adversity, while managing all communications between the riders, international crew and the local herders. I first doubted if she could handle the demanding nature of the job, but she proved me wrong and has been with the Derby for 4 years now.`,
+    name: 'Shatarchuluun',
+    title: 'Director of Mongolian operations at the Mongol Derby',
+    icon: "/test3.jpg",
+  },
+  {
+    quote:
+      `I've known Khaliun for over five years, and our journey from colleagues to close sisters has been nothing short of amazing. Whenever I have a job that requires someone reliable and detail-oriented, they’re the first person I call. Whether it’s tackling complex tasks or managing last-minute challenges, they always deliver beyond expectations. Their work ethic and trustworthiness are unmatched.`,
+    name: 'Nyamtaivan Odongerel',
+    title: 'CEO at Steppe and Hoof NGO',
+    icon: "/test1.jpg",
+  },
+  {
+    quote:
+      `Teaching Khaliun coding was a pleasure. They were one of the most hard-working and fast-learning students in the class. She would often struggle with coding, but never gave up.`,
     name: 'Dashnyam Baasan',
-    title: 'Instructor and Senior Developer at Pinecone Academy',
-    icon: "",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies',
-    icon: "",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies',
-    icon: "",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies',
-    icon: "",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies',
-    icon: "",
+    title: 'Senior Engineer at Pinecone Academy',
+    icon: "/test5.jpg",
   },
 ];
 
