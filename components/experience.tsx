@@ -8,7 +8,7 @@ const Exerience = () => (
     <h1 className="heading max-w-[65vw]">
       My <span className="text-purple">work experience</span>
     </h1>
-    <div className="mt-12 grid w-full grid-cols-2 gap-10 lg:grid-cols-4">
+    <div className="mt-12 grid w-full grid-cols-1 gap-10 md:grid-cols-4">
       {workExperience.map((card) => (
         <Button
           key={card.id}

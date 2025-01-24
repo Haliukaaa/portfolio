@@ -1,10 +1,19 @@
+'use client';
 import { FaLocationArrow } from 'react-icons/fa';
 import Link from 'next/link';
 import MagicButton from './ui/magic-button';
-
+import { useState } from 'react';
 import { socialMedia } from '@/data';
+import { IoCopyOutline } from 'react-icons/io5';
 
-export const Footer = () => (
+export const Footer = () => {
+  const [copied, setCopied] = useState(false);
+  const handleCopy = () => {
+    navigator.clipboard.writeText('80234566');
+    setCopied(true);
+  };
+  return (
+ 
   <footer className="mb-[100px] w-full pb-10 md:mb-5" id="contact">
     <div className="flex flex-col items-center ">
       <h1 className="heading lg:max-w-[45vw]">
@@ -16,6 +25,13 @@ export const Footer = () => (
       <Link href="mailto:haliuka.aqua@gmail.com">
         <MagicButton title="Send an email" icon={<FaLocationArrow />} position="right"></MagicButton>
       </Link>
+      <MagicButton
+          title={copied ? 'Phone number copied' : 'Copy phone number'}
+          icon={<IoCopyOutline />}
+          position="left"
+          otherClasses="!bg-[161a31]"
+          handleClick={handleCopy}
+        />
     </div>
     <div className="mt-16 flex flex-col items-center justify-between md:flex-row">
       <p className="text-sm font-light md:text-base md:font-normal">Copyright © 2024 Haliuka&apos;s experimental portfolio coded with love and hours of frustration! 🩵</p>
@@ -31,4 +47,4 @@ export const Footer = () => (
       </div>
     </div>
   </footer>
-);
+)};

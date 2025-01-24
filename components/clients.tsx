@@ -8,7 +8,7 @@ const clients = () => (
       Real testimonials from<span className="text-purple"> people I&apos;ve wroked with</span>
     </h1>
     <div className="flex flex-col items-center max-lg:mt-10 ">
-      <InfiniteMovingCards items={testimonials} direction="right" speed="slow" />
+      <InfiniteMovingCards items={testimonials} direction="left" speed="normal" />
       <div className="flex flex-wrap items-center justify-center gap-4 max-lg:mt-10 md:gap-16">
       </div>
     </div>
