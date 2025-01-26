@@ -22,7 +22,7 @@ export const Footer = () => {
       <p className="my-5 text-center text-white-200 md:mt-10">
         Reach out to me today and let&apos;s discuss how I can help you achieve your goals.
       </p>
-      <Link href="mailto:haliuka.aqua@gmail.com">
+      <Link href="mailto:haliuka.aqua@gmail.com" className='mb-4'>
         <MagicButton title="Send an email" icon={<FaLocationArrow />} position="right"></MagicButton>
       </Link>
       <MagicButton
@@ -30,6 +30,7 @@ export const Footer = () => {
           icon={<IoCopyOutline />}
           position="left"
           otherClasses="!bg-[161a31]"
+          buttonClass='!w-fit'
           handleClick={handleCopy}
         />
     </div>

@@ -116,25 +116,19 @@ export const BentoGridItem = ({
 										</span>
 									))}
 									<span className="rounded-lg bg-[#10132E] px-3 py-4 text-center" />
-									<span className="rounded-lg bg-[#10132E] px-3 py-4 text-center" />
-									<span className="rounded-lg bg-[#10132E] px-3 py-4 text-center" />
 								</div>
 								<div className="flex flex-col gap-3 lg:gap-8">
-									<span className="rounded-lg bg-[#10132E] px-3 py-4 text-center" />
-									<span className="rounded-lg bg-[#10132E] px-3 py-4 text-center" />
 									{["Express.js", "TailwindCSS", "React.js"].map((item) => (
 										<span
-											key={item}
-											className="rounded-lg bg-[#10132E] px-3 py-2 text-center text-xs opacity-50 lg:px-3 lg:py-4 lg:text-base lg:opacity-100"
+										key={item}
+										className="rounded-lg bg-[#10132E] px-3 py-2 text-center text-xs opacity-50 lg:px-3 lg:py-4 lg:text-base lg:opacity-100"
 										>
 											{item}
 										</span>
 									))}
+									<span className="rounded-lg bg-[#10132E] px-3 py-4 text-center" />
 								</div>
 								<div className="flex flex-col gap-3 lg:gap-8">
-									<span className="rounded-lg bg-[#10132E] px-3 py-4 text-center" />
-									<span className="rounded-lg bg-[#10132E] px-3 py-4 text-center" />
-									<span className="rounded-lg bg-[#10132E] px-3 py-4 text-center" />
 									{["MongoDB", "PostgreSQL", "Node.js"].map((item) => (
 										<span
 											key={item}

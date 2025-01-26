@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <main className="relative mx-auto flex flex-col items-center justify-center overflow-hidden bg-black-100 px-5 sm:px-10">
     <div className="w-full max-w-7xl">
-        <button onClick={() => download(fileUrl, filename)} className="fixed top-5 right-5 inline-flex h-12 z-10 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-purple transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+        <button onClick={() => download(fileUrl, filename)} className="fixed top-5 right-5 inline-flex h-12 z-[99] animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-purple transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
           Download CV
         </button>
         <ChatInterface />
