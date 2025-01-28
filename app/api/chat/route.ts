@@ -1,8 +1,6 @@
-// app/api/chat/route.ts
 import OpenAI from 'openai';
 import { NextResponse } from 'next/server';
 
-// Configure runtime
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 
@@ -10,7 +8,7 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY!,
 });
 
-const ASSISTANT_ID = process.env.ASSISTANT_ID!; // Move to environment variable
+const ASSISTANT_ID = process.env.ASSISTANT_ID!;
 
 async function waitForRunCompletion(threadId: string, runId: string) {
   let runStatus = await openai.beta.threads.runs.retrieve(threadId, runId);

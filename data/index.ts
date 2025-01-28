@@ -121,7 +121,7 @@ export const testimonials = [
     icon: "/test4.jpg",
   },
   {
-    quote: `Working with Khaliun was like having five employees in one. From content creation and marketing to translation and web admin, they handled everything with ease. Their recent work with implementing a chatbot, brought our operations to a whole new level. A true multi-talented gem!`,
+    quote: `Халиунаа нь маш үр бүтээлтэй, хариуцлагатай ажилтан юм. Тэрээр ажлын даалгаврыг цаг хугацаанд нь чанартай гүйцэтгэж, аливаа асуудалд шийдэл олоход анхаардаг. Шинэ зүйлийг хурдан сурч, хэрэгжүүлэх чадвартай нь түүний давуу тал юм. Халиунаа бол багийнхаа амжилтад чухал хувь нэмэр оруулсан үнэ цэнэтэй ажилтан байсан би үздэг.`,
     name: 'Enkhkhorvoo Dendev',
     title: 'CEO at Beauty Secrets',
     icon: "/test2.jpg",
